@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "jimp": "^0.6.0",
-    "responsive-loader": "^1.2.0"
+    "responsive-loader": "github:kodius/responsive-loader",
+    "sharp": "^0.25.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",

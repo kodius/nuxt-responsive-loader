@@ -1,5 +1,5 @@
 <template>
-  <img :srcset="require('~/assets/nuxt.jpg').srcSet">
+  <img :srcset="require('~/assets/nuxt.jpg?webp').srcSet" />
 </template>
 
 <script>
