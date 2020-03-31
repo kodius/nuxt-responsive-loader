@@ -1,5 +1,11 @@
 <template>
-  <img :srcset="require('~/assets/nuxt.jpg?webp').srcSet" />
+  <figure class="picture">
+    <picture>
+      <source :srcset="require('~/assets/nuxt.jpg').srcSetWebP" type="image/webp" />
+      <source :srcset="require('~/assets/nuxt.jpg').srcSet" type="image/png" />
+      <img src="~/assets/nuxt.jpg" />
+    </picture>
+  </figure>
 </template>
 
 <script>
